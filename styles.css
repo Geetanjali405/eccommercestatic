@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: whitesmoke;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px 30px 30px 60px;
+  margin-left: 50px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.search-cart ul {
+  list-style: none;
+  display: flex;
+}
+
+.search-cart ul li {
+  margin-right: 10px;
+  padding: 5px;
+  color: black;
+  margin-right: 80px;
+}
+
+.main-content {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.left-content {
+  flex: 1;
+  margin-left: 50px;
+}
+
+/* .right-content img {
+  display: flex;
+  width: 60%;
+  height: 84%;
+  margin-left: 40px;
+} */
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.right-content img {
+  width: 60%;
+  height: 84%;
+  object-fit: cover; /* Maintain aspect ratio while covering the area */
+  margin-right: 20px;
+  margin-top: -30px; /* Move the image up */
+}
+
+.shop-now-button {
+  background-color: black;
+  color: white;
+  padding: 8px 32px 8px 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.categories {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  bottom: 0;
+  left: 50%; /* Center the Categories section horizontally */
+  transform: translateX(-50%);
+  width: 100%; /* Make it full width */
+  text-align: center;
+  /* padding: 0px 0; */
+}
